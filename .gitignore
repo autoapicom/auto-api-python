@@ -1,0 +1,79 @@
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE / Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.yarn/
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+.env
+.python-version
+pip-log.txt
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Go
+bin/
+vendor/
+
+# PHP
+vendor/
+composer.lock
+.phpunit.result.cache
+.php-cs-fixer.cache
+
+# Build / Distribution
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs
+*.log
+logs/
+
+# Coverage
+coverage/
+.coverage
+htmlcov/
+*.lcov
+
+# Misc
+*.tmp
+*.bak
+*.orig
+.env.local
+.env.*.local

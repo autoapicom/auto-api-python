@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto-api-client"
+version = "1.0.0"
+description = "Python client for auto-api.com — car listings API across multiple marketplaces"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{name = "AUTO-API.COM", email = "access@auto-api.com"}]
+keywords = ["auto-api", "api-client", "car-listings", "encar", "mobile-de", "autoscout24", "car-auction", "scraper", "encar api", "mobile.de api", "autoscout24 api", "che168 api", "dongchedi api", "guazi api", "dubicars api", "dubizzle api"]
+dependencies = ["requests>=2.28"]
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://auto-api.com"
+Documentation = "https://auto-api.com"

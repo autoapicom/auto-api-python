@@ -1,0 +1,33 @@
+# auto-api-client
+
+> Python client for auto-api.com — car listings API from 8 automotive marketplaces (encar, mobile.de, autoscout24, che168, dongchedi, guazi, dubicars, dubizzle).
+
+## Install
+
+pip install auto-api-client
+
+## Quick Start
+
+from auto_api import Client
+client = Client('your-api-key')
+offers = client.get_offers('encar', page=1, brand='BMW')
+
+## API Methods
+
+- get_filters(source) — available filters (brands, models, body types)
+- get_offers(source, **params) — search listings with pagination and filters
+- get_offer(source, inner_id) — single listing by ID
+- get_change_id(source, date) — get change_id by date (yyyy-mm-dd)
+- get_changes(source, change_id) — changes feed (added/changed/removed)
+- get_offer_by_url(url) — listing data by marketplace URL
+
+## Auth
+
+- GET requests: api_key query parameter
+- POST /api/v1/offer/info: x-api-key header
+
+## Links
+
+- [Documentation](https://auto-api.com)
+- [Source Code](https://github.com/autoapicom/auto-api-python)
+- [README](https://github.com/autoapicom/auto-api-python/blob/main/README.md)
