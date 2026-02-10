@@ -4,9 +4,9 @@
 [![Python version](https://img.shields.io/pypi/pyversions/auto-api-client)](https://pypi.org/project/auto-api-client/)
 [![License](https://img.shields.io/pypi/l/auto-api-client)](LICENSE)
 
-Python client for [auto-api.com](https://auto-api.com) — car listings API across multiple marketplaces.
+Python client for the [auto-api.com](https://auto-api.com) car listings API.
 
-One API to access car listings from 8 marketplaces: encar, mobile.de, autoscout24, che168, dongchedi, guazi, dubicars, dubizzle. Search offers, track price changes, and get listing data in a unified format.
+Gives you access to 8 automotive marketplaces through a single interface — encar (Korea), mobile.de and autoscout24 (Europe), che168/dongchedi/guazi (China), dubicars/dubizzle (UAE). Search offers, pull listing details, track changes. Built on `requests`.
 
 ## Installation
 

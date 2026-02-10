@@ -1,3 +1,6 @@
+from __future__ import annotations
+
+
 class ApiError(Exception):
     """Base exception for API errors."""
 

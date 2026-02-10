@@ -1,6 +1,6 @@
 # Copilot Instructions — auto-api-python
 
-This is a Python 3.9+ client library for the auto-api.com vehicle data API.
+This is a Python 3.7+ client library for the auto-api.com vehicle data API.
 
 ## Architecture
 

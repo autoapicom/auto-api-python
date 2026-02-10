@@ -27,11 +27,11 @@ python -m pytest
 - `auto_api/client.py` — Client class, all 6 public API methods
 - `auto_api/errors.py` — ApiError and AuthError classes
 - `auto_api/__init__.py` — Public API exports
-- `pyproject.toml` — Package config, Python 3.9+, requests dependency
+- `pyproject.toml` — Package config, Python 3.7+, requests dependency
 
 ## Conventions
 
-- Python 3.9+, type hints on all public methods
+- Python 3.7+, type hints on all public methods
 - requests library for HTTP (sync-only)
 - snake_case methods: `get_offers()`, `get_change_id()`, `get_offer_by_url()`
 - Filter params via **kwargs: `client.get_offers('encar', page=1, brand='BMW')`
