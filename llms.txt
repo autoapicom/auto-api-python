@@ -1,10 +1,10 @@
-# auto-api-client
+# autoapicom-client
 
 > Python client for auto-api.com — car listings API from 8 automotive marketplaces (encar, mobile.de, autoscout24, che168, dongchedi, guazi, dubicars, dubizzle).
 
 ## Install
 
-pip install auto-api-client
+pip install autoapicom-client
 
 ## Quick Start
 
