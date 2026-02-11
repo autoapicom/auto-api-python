@@ -1,8 +1,8 @@
-# auto-api-client-python
+# autoapicom-client-python
 
-[![PyPI version](https://img.shields.io/pypi/v/auto-api-client)](https://pypi.org/project/auto-api-client/)
-[![Python version](https://img.shields.io/pypi/pyversions/auto-api-client)](https://pypi.org/project/auto-api-client/)
-[![License](https://img.shields.io/pypi/l/auto-api-client)](LICENSE)
+[![PyPI version](https://img.shields.io/pypi/v/autoapicom-client)](https://pypi.org/project/autoapicom-client/)
+[![Python version](https://img.shields.io/pypi/pyversions/autoapicom-client)](https://pypi.org/project/autoapicom-client/)
+[![License](https://img.shields.io/pypi/l/autoapicom-client)](LICENSE)
 
 Python client for the [auto-api.com](https://auto-api.com) car listings API.
 
@@ -11,7 +11,7 @@ Gives you access to 8 automotive marketplaces through a single interface — enc
 ## Installation
 
 ```bash
-pip install auto-api-client
+pip install autoapicom-client
 ```
 
 ## Usage
@@ -91,13 +91,13 @@ except ApiError as e:
 
 | Language | Package |
 |----------|---------|
-| PHP | [auto-api/client](https://github.com/autoapicom/auto-api-php) |
-| TypeScript | [@auto-api/client](https://github.com/autoapicom/auto-api-node) |
+| PHP | [autoapi/client](https://github.com/autoapicom/auto-api-php) |
+| TypeScript | [@autoapicom/client](https://github.com/autoapicom/auto-api-node) |
 | Go | [auto-api-go](https://github.com/autoapicom/auto-api-go) |
 | C# | [AutoApi.Client](https://github.com/autoapicom/auto-api-dotnet) |
-| Java | [auto-api-client](https://github.com/autoapicom/auto-api-java) |
-| Ruby | [auto-api-client](https://github.com/autoapicom/auto-api-ruby) |
-| Rust | [auto-api-client](https://github.com/autoapicom/auto-api-rust) |
+| Java | [autoapicom-client](https://github.com/autoapicom/auto-api-java) |
+| Ruby | [autoapicom-client](https://github.com/autoapicom/auto-api-ruby) |
+| Rust | [autoapicom-client](https://github.com/autoapicom/auto-api-rust) |
 
 ## Documentation
 
