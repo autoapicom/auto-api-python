@@ -5,7 +5,7 @@ Python client for [auto-api.com](https://auto-api.com) — car listings API acro
 ## Quick Start
 
 ```bash
-pip install auto-api-client
+pip install autoapicom-client
 ```
 
 ```python
