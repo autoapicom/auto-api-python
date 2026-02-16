@@ -8,7 +8,7 @@ from .errors import ApiError, AuthError
 class Client:
     """Auto API client for auto-api.com — car listings across multiple marketplaces."""
 
-    def __init__(self, api_key: str, base_url: str = 'https://auto-api.com', api_version: str = 'v2'):
+    def __init__(self, api_key: str, base_url: str = 'https://api1.auto-api.com', api_version: str = 'v2'):
         self.api_key = api_key
         self.base_url = base_url.rstrip('/')
         self.api_version = api_version

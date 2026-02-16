@@ -11,7 +11,7 @@ pip install autoapicom-client
 ```python
 from auto_api import Client
 
-client = Client('your-api-key')
+client = Client('your-api-key', 'https://api1.auto-api.com')
 offers = client.get_offers('encar', page=1, brand='BMW')
 ```
 

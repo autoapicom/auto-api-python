@@ -8,7 +8,7 @@ Run: python example.py
 
 from auto_api import Client, AuthError, ApiError
 
-client = Client('your-api-key')
+client = Client('your-api-key', 'https://api1.auto-api.com')
 source = 'encar'
 
 # --- Get available filters ---
@@ -69,7 +69,7 @@ print(f"{info['mark']} {info['model']} {info['year']} — ${info['price']}")
 # --- Error handling ---
 
 try:
-    bad_client = Client('invalid-key')
+    bad_client = Client('invalid-key', 'https://api1.auto-api.com')
     bad_client.get_offers('encar', page=1)
 except AuthError as e:
     print(f'\nAuth error: {e.message} (HTTP {e.status_code})')
